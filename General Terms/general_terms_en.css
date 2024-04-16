@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.x7-general-terms {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: #e1e1e2;
+}
+
+.general-terms-container {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0 0 20px 0;
+  text-align: center;
+}
+
+.paragraph-title {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 15.5px;
+  font-weight: bold;
+}
+
+.paragraph-info {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 15.5px;
+  margin-top: -10px;
+}
+
+@media (max-width: 1440px) {
+  .general-terms-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .general-terms-container {
+    width: 85%;
+  }
+  .page-title {
+    font-size: 1rem;
+  }
+}
